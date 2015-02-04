@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		53147E3A1A811611000657B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53147E391A811611000657B1 /* AppDelegate.swift */; };
-		53147E3C1A811611000657B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53147E3B1A811611000657B1 /* ViewController.swift */; };
+		53147E3C1A811611000657B1 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53147E3B1A811611000657B1 /* SearchResultsViewController.swift */; };
 		53147E3F1A811611000657B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53147E3D1A811611000657B1 /* Main.storyboard */; };
 		53147E411A811611000657B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53147E401A811611000657B1 /* Images.xcassets */; };
 		53147E441A811611000657B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53147E421A811611000657B1 /* LaunchScreen.xib */; };
 		53147E501A811611000657B1 /* HelloJQWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53147E4F1A811611000657B1 /* HelloJQWorldTests.swift */; };
+		531ABB6F1A8268E20013C956 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531ABB6E1A8268E20013C956 /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		53147E341A811611000657B1 /* HelloJQWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloJQWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53147E381A811611000657B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53147E391A811611000657B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53147E3B1A811611000657B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53147E3B1A811611000657B1 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		53147E3E1A811611000657B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53147E401A811611000657B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53147E431A811611000657B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		53147E491A811611000657B1 /* HelloJQWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloJQWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53147E4E1A811611000657B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53147E4F1A811611000657B1 /* HelloJQWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloJQWorldTests.swift; sourceTree = "<group>"; };
+		531ABB6E1A8268E20013C956 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				53147E391A811611000657B1 /* AppDelegate.swift */,
-				53147E3B1A811611000657B1 /* ViewController.swift */,
+				53147E3B1A811611000657B1 /* SearchResultsViewController.swift */,
+				531ABB6E1A8268E20013C956 /* APIController.swift */,
 				53147E3D1A811611000657B1 /* Main.storyboard */,
 				53147E401A811611000657B1 /* Images.xcassets */,
 				53147E421A811611000657B1 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53147E3C1A811611000657B1 /* ViewController.swift in Sources */,
+				53147E3C1A811611000657B1 /* SearchResultsViewController.swift in Sources */,
 				53147E3A1A811611000657B1 /* AppDelegate.swift in Sources */,
+				531ABB6F1A8268E20013C956 /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				53147E551A811611000657B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53147E561A811611000657B1 /* Build configuration list for PBXNativeTarget "HelloJQWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				53147E581A811611000657B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
